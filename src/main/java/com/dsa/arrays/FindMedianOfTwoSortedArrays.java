@@ -17,7 +17,7 @@ public class FindMedianOfTwoSortedArrays {
 
             if( ( i < nums1.length) && ( j < nums2.length) && nums1[i] < nums2[j] ){
                 mergedArray[z] = nums1[i];
-                    i++;
+                i++;
             }else if(  j == nums2.length ){
                 mergedArray[z] = nums1[i];
                 i++;
@@ -30,9 +30,6 @@ public class FindMedianOfTwoSortedArrays {
             }
             z++;
         }
-
-
-
         if( ( nums1.length + nums2.length ) % 2 == 0 ){
             median = mergedArray[mergeArrayLength / 2] + mergedArray[ ( mergeArrayLength / 2 ) - 1 ];
             median = median / 2;

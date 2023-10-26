@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CstmrPmtStsRpt>
+    <GrpHdr>
+        <MsgId>PAYMENT-13841</MsgId>
+        <CreDtTm>2023-09-27T20:11:16.171+04:00</CreDtTm>
+    </GrpHdr>
+    <OrgnlGrpInfAndSts>
+        <OrgnlMsgId>1112709235233759</OrgnlMsgId>
+        <OrgnlMsgNmId>1112709235233759.xml</OrgnlMsgNmId> <OrgnlCreDtTm>2023-09-27 00:00:00.0</OrgnlCreDtTm>
+        <GrpSts>ACCP</GrpSts>
+        <StsRsnInf>
+            <Rsn>
+                <Prtry>INTRNLAEIPAINBULK: 9664</Prtry>
+            </Rsn>
+        </StsRsnInf>
+    </OrgnlGrpInfAndSts>
+    <OrgnlPmtInfAndSts>
+        <OrgnlPmtInfId>BB23092700091956</OrgnlPmtInfId>
+        <OrgnlNb0fTxs>1</OrgnlNb0fTxs>
+        <OrgnlCtrlSum>65</OrgnlCtrlSum>
+        <PmtInfSts>PROCESSED</PmtInfSts>
+        <StsRsnInf>
+            <AcntgRef>AE0003921</AcntgRef>
+            <CaseId/>
+        </StsRsnInf>
+        <TxInfAndSts>
+            <OrgnlInstrId>11127092352337464</OrgnlInstrId> <OrgnlEndToEndId>1112709235233746</OrgnlEndToEndId>
+            <TxSts>ACCP</TxSts>
+            <StsRsnInf>
+
+                <Rsn>
+                    <Prtry>Booked</Prtry>
+                </Rsn>
+            </StsRsnInf>
+            <OrgnlTxRef>
+                <Amt>
+
+                    <InstdAmt>65</InstdAmt>
+
+                    <IntrBkSttlmDt>2023-09-27 00:00:00.0</IntrBkSttlmDt>
+                </Amt>
+                <DbtrAcct>
+                    <Id>
+                        <Othr>
+                            <Id>1011005732311</Id>
+                        </Othr>
+                    </Id>
+                    <Ccy>AED</Ccy>
+                </DbtrAcct>
+                <CdtrAcct>
+                    <Id>
+                        <Othr>
+                            <Id>1021009712002</Id>
+                        </Othr>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInfAndSts>
+    </OrgnlPmtInfAndSts>
+    <OrgnlPmtInfAndSts>
+        <OrgnlPmtInfId>BB23092700091958</OrgnlPmtInfId>
+        <OrgnlNb0fTxs>1</OrgnlNb0fTxs>
+        <OrgnlCtrlSum>65</OrgnlCtrlSum>
+        <PmtInfSts>FUTURE-DATED</PmtInfSts>
+        <StsRsnInf/> <TxInfAndSts>
+        <OrgnlInstrId>1112709235233758</OrgnlInstrId>
+        <OrgnlEndToEndId>1112709235233758</OrgnlEndToEndId>
+        <TxSts>ACCP</TxSts>
+        <StsRsnInf>
+            <Rsn>
+                <Prtry>Future Dated</Prtry>
+            </Rsn>
+
+        </StsRsnInf>
+
+        <OrgnlTxRef>
+
+            <Amt>
+
+                <InstdAmt>65</InstdAmt>
+
+
+                <IntrBkSttlmDt>2023-09-28 00:00:00.0</IntrBkSttlmDt>
+            </Amt>
+            <DbtrAcct>
+                <Id>
+                    <Othr>
+                        <Id>1011005732311</Id>
+                    </Othr>
+                </Id>
+                <Ccy>AED</Ccy>
+            </DbtrAcct>
+            <CdtrAcct>
+                <Id>
+                    <Othr>
+                        <Id>1021009712002</Id>
+                    </Othr>
+                </Id>
+            </CdtrAcct>
+        </OrgnlTxRef>
+    </TxInfAndSts>
+    </OrgnlPmtInfAndSts>
+    <OrgnlPmtInfAndSts>
+        <OrgnlPmtInfId>BB23092700091957</OrgnlPmtInfId>
+        <OrgnlNb0fTxs>2</OrgnlNb0fTxs>
+        <OrgnlCtrlSum>152</OrgnlCtrlSum>
+        <PmtInfSts>PROCESSED</PmtInfSts>
+        <StsRsnInf>
+            <AcntgRef>AE0003923</AcntgRef>
+            <CaseId/>
+        </StsRsnInf>
+        <TxInfAndSts>
+            <OrgnlInstrId>11127092352337494</OrgnlInstrId>
+
+            <OrgnlEndToEndId>EPHCOD270007NFEK</OrgnlEndToEndId>
+            <TxSts>ACCP</TxSts>
+            <StsRsnInf>
+                <Rsn>
+                    <Prtry>Clearing Batch Generated</Prtry>
+                </Rsn>
+            </StsRsnInf>
+
+            <OrgnlTxRef>
+                <Amt>
+                    <InstdAmt>65</InstdAmt>
+                    <IntrBkSttlmDt>2023-09-27 00:00:00.0</IntrBkSttlmDt>
+                </Amt>
+                <DbtrAcct>
+                    <Id>
+                        <Othr>
+                            <Id>1011005732311</Id>
+                        </Othr>
+                    </Id>
+                    <Ccy>AED</Ccy>
+                </DbtrAcct> <CdtrAcct>
+                <Id>
+                    <Othr>
+                        <Id>AE400440000001945128501</Id>
+                    </Othr>
+                </Id>
+            </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInfAndSts>
+        <TxInfAndSts>
+            <OrgnlInstrId>1112709235233751</OrgnlInstrId> <OrgnlEndToEndId> 1112709235233751</OrgnlEndToEndId>
+            <TxSts>ACCP</TxSts>
+            <StsRsnInf>
+                <Rsn>
+                    <Prtry>Booked</Prtry>
+                </Rsn>
+            </StsRsnInf>
+            <OrgnlTxRef>
+                <Amt>
+
+                    <InstdAmt>87</InstdAmt>
+
+                    <IntrBkSttlmDt>2023-09-27 00:00:00.0</IntrBkSttlmDt>
+
+
+                </Amt>
+
+                <DbtrAcct>
+
+                    <Id>
+                        <Othr>
+                            <Id>1011005732311</Id>
+                        </Othr>
+                    </Id>
+                    <Ccy>AED</Ccy>
+                </DbtrAcct>
+                <CdtrAcct>
+                    <Id>
+                        <Othr>
+                            <Id>101100103481l</Id>
+                        </Othr>
+                    </Id>
+                </CdtrAcct>
+            </OrgnlTxRef>
+        </TxInfAndSts>
+    </OrgnlPmtInfAndSts>
+</CstmrPmtStsRpt>
